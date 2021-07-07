@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>ブロック移動ゲーム</title>
+</head>
+<body>
+  <h1>赤いブロックをゴールまで移動しよう！</h1>
+  <table border>
+    <tr>
+      <td id="red"></td>
+      <td id="lightblue"></td>
+      <td id="white"></td>
+      <td id="blue"></td>
+      <td id="green"></td>
+    </tr>
+    <tr>
+      <td>自分</td>
+      <td>ゴール</td>
+      <td>-1点</td>
+      <td>-3点</td>
+      <td>3点</td>
+    </tr>
+  </table>
+  <p id="スコア"></p>
+  <canvas id="キャンバス"></canvas><br>
+  <input type="button" value="リセット" id="リセットボタン">
+  
+  <script src="./script.js"></script>
+</body>
+</html>
